@@ -4,6 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import TasksPage from "./pages/TasksPage";
 import AppNav from "./components/AppNav";
 import "./index.css";
+import TaskForm from "./components/TaskForm";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           {/* <Route path="/tasks" element={<TasksPage />}> */}
             <Route index element={<h1>tasks Analytics</h1>} />
             <Route path=":taskId" element={<h1>Task Details 1</h1>} />
-            <Route path="create-task" element={<h1>Create Task</h1>} />
+            <Route path="create-task" element={<TaskForm/>} />
           </Route>
         </Routes>
       </BrowserRouter>

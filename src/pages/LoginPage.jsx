@@ -10,7 +10,7 @@ function LoginPage() {
       <Row className="justify-content-center">
         <Col xs={12} md={6} lg={4}>
           {" "}
-          {/* Full width on small screens */}
+          
           <div className="p-4 shadow rounded bg-light">
             <h1 className="text-center">Login</h1>
             <Form>

@@ -18,7 +18,6 @@ function AppNav() {
               height="30"
               className="d-inline-block align-top"
             />{" "}
-            Ikomol
           </Navbar.Brand>
         </Nav>
         <Navbar.Toggle aria-controls="app-nav" />
